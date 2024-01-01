@@ -1,16 +1,18 @@
-// Copyright Samuel
+// Samuel
 
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "Character/AuraCharacterBase.h"
 #include "AuraCharacter.generated.h"
 
 /**
-* 
-*/
+ * 
+ */
 UCLASS()
-class AURA_API AAuraCharacter : public ACharacter
+class AURA_API AAuraCharacter : public AAuraCharacterBase
 {
 	GENERATED_BODY()
+public:
+	AAuraCharacter();
 };
